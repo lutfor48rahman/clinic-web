@@ -1,0 +1,146 @@
+.about{
+    /* margin-top: 60px; */
+    background-image: url('../../component/images/aboutImage.jpeg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about .title{
+    height: 100vh;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.storys{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.storys .heading{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.storys .top{
+    width: 90px;
+}
+.storys .bottom{
+    width: 40px;
+}
+.storys .title{
+    font-size: 60px;
+}
+.storys .text{
+    margin-top: 60px;
+    font-size: 20px;
+    padding: 5px;
+}
+.storys .description{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Features section style  */
+.feature{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.details{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.details .heading{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.details .title{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.glance{
+    text-align: center;
+}
+.glance .title{
+    font-size: 17px;
+    padding-top: 30px;
+}
+.glance .points{
+    padding-top: 40px;
+}
+.glance .point{
+    font-size: 20px;
+    padding: 5px;
+}
+.glance .point .icon{
+    font-size: 35px;
+}
+.glance hr{
+    width: 48%;
+    margin-left: 27%;
+}
+
+/* About people says section sstyle */
+.aboutPeoples{
+    margin-bottom: 50px;
+}
+.aboutPeople{
+    margin-top: 60px;
+    background-image: url('../../component/images/aboutImage.jpeg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.aboutPeoples .aboutColor{
+    margin-top: 70px;
+    color: white;
+}
+.aboutHeading{
+    text-align: center;
+    color: white;
+}
+.aboutHeading .heading{
+    padding-top: 70px;
+    font-size: 20px;
+}
+.aboutHeading .title{
+    font-size: 50px;
+    padding: 5px;
+    font-weight: bold;
+}
+.aboutColor .aboutCol{
+    padding: 20px;
+}
+.aboutColor .aboutCol p{
+    font-size: 20px;
+}
+.aboutColor .aboutCol h6{
+    margin-top: -10px;
+    padding: 0;
+}
+
+/* Our happy Client section style  */
+.happyClient{
+    margin-top: 50px;
+    padding-bottom: 90px;
+    background-color: white;
+}
+.happyClientHeading{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}

@@ -1,0 +1,48 @@
+.team {
+    margin-top: 10px;
+    background-color: rgb(243, 241, 241);
+}
+
+.teamCoFounderBg{
+    background-image: url('../../component/images/teamCoFonder.png');
+    min-height: 100vh;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+}
+.teamFounderAbout {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.teamFounderAbout .myself {
+    height: 150px;
+    padding-left: 20px;
+    margin-left: -90px;
+    position: relative;
+}
+
+.teamFounderAbout .myself hr {
+    border-top: none;
+    border-bottom: 3px solid black;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+}
+
+.teamFounderAbout .myself h1 {
+    padding-top: 60px;
+}
+
+.describe p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.describe .aboutMySelf {
+    padding-top: 30px;
+}
+
+.describe span hr {
+    width: 60px;
+}

@@ -1,0 +1,173 @@
+.galleryBanner {
+    background-image: url(../../component/images/picture.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.galleryBanner .name {
+    font-size: 70px;
+    color: white;
+    font-weight: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.photoGallery {
+    margin-top: 100px;
+}
+
+.photoGallery .image img {
+    height: 250px;
+    width: 350px;
+}
+
+.photoGallery .content {
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.photoGallery .content .title {
+    font-size: 35px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.photoGallery .content .description {
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+/* all photos section style  */
+
+.allPhotos {
+    margin-top: 100px;
+    background-color: black;
+}
+
+.allPhotos .heading{
+    text-align: center;
+    color: white;
+    text-transform: uppercase
+}
+.allPhotos .heading .title{
+   padding: 50px;
+   font-size: 15px;
+}
+.allPhotos .heading .name{
+   font-size: 45px;
+   font-weight: 400;
+   padding-bottom: 50px;
+}
+.allPhotos .galleryShow img{
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.allPhotos .galleryShow img:hover{
+    transform: scale(.9);
+    transition: .4s;
+    cursor: pointer;
+}
+.allPhotos .smallGallery{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.allPhotos .smallGallery .gallerySmall img{
+    height: 250px;
+    width: 100%;
+}
+
+/* gallery work place section style  */
+
+.workPlace{
+    padding-bottom: 30px;
+}
+
+.workPlace1{
+    background-image: url('../../component/images/galleryShow.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.workPlace2{
+ 
+    background-color: black;
+    padding-bottom: 40px;
+}
+.workPlace3{
+    background-image: url('../../component/images/galleryShow4.jpeg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.middleWork{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.middleWork .head{
+    font-size: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.middleWork hr{
+    width: 60px;
+    margin-left: 45%;
+    border: 1px solid white;
+}
+.middleWork .title{
+    font-size: 50px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.middleWork .text{
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.middleWork .buttons .button1 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-top: 1px solid white;
+    text-transform: uppercase;
+}
+
+.middleWork .buttons .button1:hover{
+    transform: translateY(-5px);
+    transition: .4s;
+}
+.middleWork .buttons .button2 {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.middleWork .buttons .button2:hover{
+    transform: translateY(-5px);
+    transition: .4s;
+}
+
+.workSlider{
+    margin-top: 10px;
+}
+.image-img{
+    height: 400px;
+    width: 100%;
+}
+.workPlace .workSmallGallery img{
+  width: 100%;
+}

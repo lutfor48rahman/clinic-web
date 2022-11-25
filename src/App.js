@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import AboutSection from "./component/AboutPage/AboutSection";
+import Flyers from "./component/Gallery/Flyers";
+import GallerySection from "./component/Gallery/GallerySection";
+import PaitaintGallery from "./component/Gallery/PaitaintGallery";
+import WorkPlace from "./component/Gallery/WorkPlace";
+import HomeSections from "./component/HomePages/HomeSections";
+import Navbar from "./component/Navbar/Navbar";
+import ServiceSection from "./component/ServicePage/ServiceSection";
+import TeamSection from "./component/TeamPage.js/TeamSection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={<HomeSections></HomeSections>}></Route>
+        <Route path="/about" element={<AboutSection></AboutSection>}></Route>
+        <Route path="/team" element={<TeamSection></TeamSection>}></Route>
+        <Route path="/service" element={<ServiceSection></ServiceSection>}></Route>
+        <Route path="/gallery" element={<GallerySection></GallerySection>}></Route>
+        <Route path="/work-place" element={<WorkPlace></WorkPlace>}></Route>
+        <Route path="/paitaint-gallery" element={<PaitaintGallery></PaitaintGallery>}></Route>
+        <Route path="/flyer" element={<Flyers></Flyers>}></Route>
+      </Routes>
     </div>
   );
 }
